@@ -1,0 +1,347 @@
+.flex{
+    display : flex;
+    height: 100%;
+    position : relative;
+    box-sizing : border-box
+}
+.menu{ 
+    background-color: rgb(243, 251, 253);
+    width: 180px;
+    height: 100%;
+    min-height: 750px;
+    top: 0;
+    left : 0;
+    display: inline-block;
+    position: fixed;
+}
+
+.container-logo{
+    padding : 0rem 3rem;
+    padding-top: 2rem;
+}
+.logo{
+    width : 90px;
+}
+.title-menu{
+    text-align: center;
+    font-size: 20px;
+}
+.list-menu{
+    display : block;
+    padding-top : 2rem;
+    
+    
+}
+.option{
+    padding : 0.7rem 2rem;
+    border-radius: 0 24px 24px 0;
+    /* width: 100%; */
+    
+    /* background-color : grey; */
+    /* border: black 1px solid; */
+}
+.option-isi{
+    text-decoration: none;
+    color: black
+}
+.option-isi:hover{
+    color : rgb(72,136,207);
+}
+.option:hover{
+    background-color : rgb(227, 242, 253);
+    color : rgb(72,136,207);
+
+}
+.foot{
+    font-size: 10px;
+    color : gray;
+    padding: 1rem 2rem;
+}
+.background-web{
+    background: linear-gradient(to bottom, #0099cc 0%, #66ffcc 100%);
+    height: 100%;
+    min-height: 720px;
+    top: 0;
+    left : 0;
+    display: inline-block;
+    position: fixed;
+    margin-left : 180px;
+    width : 90%;
+    padding: 9rem 9rem;
+    /* display:none; */
+    vertical-align: middle;
+}
+
+.title-home{
+    font-size : 3.75rem;
+    color : white;
+    text-align : center;
+    /* margin-top:0; */
+    margin-bottom : 0;
+    font-weight: 500;
+
+}
+.home-container{
+    width: 100%;
+    /* max-width: 800px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.desc-title-home{
+    text-align: center;
+    color:white;
+}
+.container-button{
+    /* display : flex; */
+    text-align: center;
+    /* justify-content: space-around; */
+    
+}
+.hide-space{
+    visibility:hidden;
+}
+.picture{
+    border:10px white solid;
+    width : 250px
+}
+.container-picture{
+    text-align: center;
+    justify-content: space-around;
+}
+.container-feature{
+    transition: 0.5s;
+    margin: 5rem 0rem;
+}
+.title-feature-cont{
+    border-bottom: 1px white solid;
+    color : white;
+    text-align: center
+}
+.row1{
+    display: flex;
+    text-align : center;
+}
+.feature{
+    color : white;
+    
+}
+body{
+    height : 100%;
+}
+
+.video-container{
+    padding: 0rem 5rem;
+    background-color : gray
+}
+.title-testi{
+    color:white;
+    text-align: center;
+    border-bottom: white 1px solid;
+}
+.carousel{
+    width : 800px
+}
+.carousel-container{
+    text-align : center;
+}
+.video{
+    width: 500px;
+}
+.row3{
+    display : flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.card-price{
+    /* width : 30%; */
+    /* border: black 1px solid; */
+    color: white ;
+    background: linear-gradient(to bottom, #4dd2c0 0%, #00bfa5 100%);
+    padding: 2rem 2rem;
+    text-align: center;
+    border-radius : 10px
+}
+.container-figure{
+    width: 30%;
+    padding : 2rem 2rem;
+    /* border : black 1px solid; */
+    text-align: center;
+}
+.figure{
+    border-radius: 50%;
+    background : white;
+    width : 100px;
+    height: 100px;
+    padding-top: 1rem;
+    /* margin: 0 auto 32px; */
+    vertical-align: middle;
+}
+.logo-tec{
+    max-width: 60px;
+    border : none;
+    display : inline;
+    margin: auto;
+    vertical-align : middle;
+}
+h5{
+    color : white;
+}
+.card-container{
+    width : 30%;
+    /* border: black 1px solid; */
+    color: white ;
+    /* background: linear-gradient(to bottom, #4dd2c0 0%, #00bfa5 100%); */
+    /* padding: 2rem 2rem; */
+    text-align: center;
+    /* border-radius : 10px */
+
+}
+
+.title-container-contact{
+    color : rgb(25,103,193);
+    /* border-bottom: 1px solid rgb(71, 168, 245); */
+}
+.container-contact{
+    background-color : white;
+    border-radius : 10px;
+    padding: 1rem 3rem
+}
+.flex-contact{
+    display : flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.flex1-contact{
+    width:49%;
+}
+.but-contact{
+    background-color : rgb(0,191,165);
+    width: 100%;
+}
+.responsive{
+    display : none;
+}
+.nav-flex-container{
+    position: fixed;
+    z-index : 99;
+    display : flex;
+    width : 100%;
+}
+.container-title{
+    text-align: center;
+}
+@media screen and (max-width : 1200px){
+    .menu{
+        left : -200px;
+        z-index: 99;
+    }
+    .flex{
+        display : none
+    }
+    .responsive{
+        display : block
+    }
+    .nav-flex-container{
+        padding: 1rem 1rem;
+        font-size : 20px;
+        background: linear-gradient(to bottom, #0099cc 0%, #66ffcc 100%);
+    }
+    .body-responsive{
+        background: linear-gradient(to bottom, #0099cc 0%, #66ffcc 100%);
+        padding: 2rem 2rem;
+    }
+    .logo2{
+        width : 20px;
+        margin-right :3px
+    }
+    .containers{
+        margin: 5rem 0rem;
+    }
+    .flex-contact{
+        display :block;
+        padding-bottom: 3rem;
+    }
+    .flex1-contact{
+        width:100%;
+    }
+}
+@media screen and (max-width : 960px){
+    .card-deck{
+        display : block;
+        /* justify-content: space-between; */
+    }
+    .card{
+        margin : 1rem 0rem
+    }
+    .rowPrice{
+        display : block
+    }
+    .card-price{
+        margin : 1rem 0rem;
+        /* width : 30%; */
+    }
+    .card-container{
+        width : 100%;
+        text-align : center;
+        align-items: center;
+        vertical-align: middle;
+    }
+}
+@media screen and (max-width : 830px){
+    .pic1{
+        display:none;
+    }
+    .pic2{
+        display : none;
+    }
+    .hide-space{
+        display:none;
+    }
+    .row1{
+        display :block
+    }
+    .feature{
+        margin: 1rem 0rem;
+    }
+}
+@media screen and (max-width : 650px){
+    /* .feature-responsive{
+        display : flex;
+        text-align: center;
+    } */
+    .row3{
+        display :block
+    }
+    .container-figure{
+        width : 100%
+    }
+    .video{
+        width : 400px;
+        transition: 0.5s;
+    }
+    .container-contact{
+        padding: 1rem 1rem;
+    }
+}
+@media screen and (max-width : 460px){
+    .video{
+        width : 300px;
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width : 360px){
+    .video{
+        width : 250px;
+        transition : 0.5s;
+    }
+    .title-home{
+        font-size: 50px;
+        transition : 0.5s;
+    }
+}
+
+/* .row3{
+    display : block;
+    text-align: center;
+} */
